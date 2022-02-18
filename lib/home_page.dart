@@ -16,7 +16,7 @@ class _HomePageState extends State<HomePage>
   void initState() {
     super.initState();
     _controller = AnimationController(
-        vsync: this, duration: Duration(seconds: 2000000000));
+        vsync: this, duration: const Duration(seconds: 2000000000));
   }
 
   @override
